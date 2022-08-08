@@ -1,0 +1,59 @@
+body {
+    padding-left: 6%;
+    padding-right: 6%;
+    background:#0f243d;
+    color: #6fbbd3
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+img {
+    width: 40%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.text {
+    width: 40%;
+    font-size: 25px;
+}
+
+
+
+@media(max-width: 850px){
+    h1{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 600px){
+    body {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .text {
+        width: 80%;
+    }
+    .container{
+        flex-direction: column;
+    }
+
+    #highschool {
+        flex-direction: column-reverse;
+    }
+}
+
