@@ -1,0 +1,64 @@
+{
+    "particles": {
+      "number": {
+        "value": 70,
+        "density" : {
+            "enable" : true,
+            "value_area" : 500
+        }
+      },
+      "color": {
+        "value": "#fced89"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 1,
+          "color": "#fced89"
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
+        }
+      },
+      "opacity": {
+        "value": 0.6,
+        "anim": {
+          "enable": true
+        }
+      },
+      "size": {
+        "value": 10,
+        "random": true,
+        "anim": {
+            "enable" : false,
+            "speed" : 60
+        }
+      },
+      "line_linked" : {
+        "enable" : true,
+        "distance" : 120
+      },
+
+      "move" : {
+        "enable" : true,
+        "speed" : 4
+      }
+    },
+    "interactivity" : {
+        "events" : {
+            "onhover" : {
+                "enable" : true,
+                "mode" : "repulse"
+            }
+        },
+        "modes" : {
+            "repulse" : {
+                "distance" : 50,
+                "duration" : 0.4
+            }
+        }
+    }
+
+  }
